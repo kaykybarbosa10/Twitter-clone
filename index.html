@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Projetos.dev/Twitter/scss/style.css">
+    <title>Twitter clone</title>
+</head>
+
+<body>
+    <header>
+        <aside>
+            <a href="#" class="logo"><i class="fab fa-twitter"></i></a>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href=""><i class="fa-solid fa-hashtag"></i>Explore</a></li>
+                <li><a href=""><i class="fa-solid fa-bell"></i>Notification</a></li>
+                <li><a href=""><i class="fa-solid fa-message"></i>Message</a></li>
+                <li><a href=""><i class="fa-solid fa-bookmark"></i>Bookmark</a></li>
+                <li><a href=""><i class="fa-solid fa-clipboard-list"></i>List</a></li>
+                <li><a href=""><i class="fa-solid fa-user"></i>Profile</a></li>
+                <li><a href=""><i class="fa-solid fa-ellipsis"></i>More</a></li>
+            </ul>
+            <button>Tweet</button>
+        </aside>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="search_bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search on twitter...">
+                </div>
+                <div class="user">
+                    <h6>Hey,Kayky!</h6>
+                    <img src="/Projetos.dev/Twitter/img/WhatsApp Image 2023-12-07 at 14.17.48.jpeg" alt="">
+                </div>
+            </nav>
+            <div class="profile_post_follow_bx">
+                <div class="profile_bx">
+                    <div class="profile_card">
+                        <img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt="" class="blue_tick_pc">
+                        <img src="/Projetos.dev/Twitter/img/WhatsApp Image 2023-12-07 at 14.17.48.jpeg"
+                            class="profile_img">
+                        <h5>Kayky Barbosa</h5>
+                        <h6>@kaykybarbosa10</h6>
+                        <address>
+                            <a href="#">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Batalha-AL
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </a>
+                        </address>
+                        <p>Front-end developer | HTML, CSS, Javascript, React, SCSS.</p>
+                        <div class="data">
+                            <div class="data_card">
+                                <p>Tweets</p>
+                                <h4>857</h4>
+                            </div>
+                            <div class="data_card">
+                                <p>Followers</p>
+                                <h4>11.2k</h4>
+                            </div>
+                            <div class="data_card">
+                                <p>Following</p>
+                                <h4>243</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activity_bx">
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-eye"></i>
+                            <h6>Activity</h6>
+                        </div>
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-bolt"></i>
+                            <h6>Moments</h6>
+                        </div>
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h6>Friends</h6>
+                        </div>
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-gear"></i>
+                            <h6>Edit Profile</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_follow_bx">
+                    <div class="post">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Tweets</a></li>
+                                <li><a href="#">Tweets & Followers</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Likes</a></li>
+                            </ul>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </nav>
+                        <div class="post_main_bx">
+                            <div class="post_card_bx">
+                                <div class="post_profile">
+                                    <img src="img/WhatsApp Image 2023-12-07 at 14.17.48.jpeg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6 class="retweet"><i class="fa-solid fa-repeat"></i> RONALDO RETWEETED</h6>
+                                    <div class="user_name_time">
+                                        <h5>Kayky Barbosa <img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt="">
+                                            <p>@kaykybarbosa10</p>
+                                        </h5>
+                                        <h6><i class="fa-regular fa-clock"></i> 25 mins</h6>
+                                    </div>
+                                    <div class="retweet_content_bx">
+                                        <div class="user_name_time">
+                                            <h5><img src="/Projetos.dev/Twitter/img/cristianoronaldo-united.jpg_423682103.webp"
+                                                    alt=""> Cristiano Ronaldo <p>@ronaldo</p>
+                                            </h5>
+                                            <h6><i class="fa-regular fa-clock"></i> 1 hour</h6>
+                                        </div>
+                                        <h3><p>O mundo está cheio de pessoas talentosas que fracassaram.</p> 
+                                            <p>Talento não é tão importante. O que realmente importa é o quão</p> 
+                                            <p>dedicado você é ao seu ofício. Ser disciplinado é uma coisa, mas</p> 
+                                            <p>ser dedicado é um jogo diferente.</p>
+                                        </h3>
+                                    </div>
+                                    <div class="image_post_bx"></div>
+                                    <div class="tweet_card_social_data">
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>38</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>68</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>62.9k</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_card_bx">
+                                <div class="post_profile">
+                                    <img src="/Projetos.dev/Twitter/img/spotify.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="user_name_time">
+                                        <h5>Spotify Brasil <img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt=""> <p>@SpotifyBrasil</p></h5>
+                                        <h6><i class="fa-regular fa-clock"></i> 2 hours</h6>
+                                    </div>
+                                    <h3>Top 3 cantores mais ouvidos no Spotify Brasil em 2023: <p>1. Felipe Amorim</p> <p>2. Nattanzinho</p> <p>3. Zé Vaqueiro</p></h3>
+                                    <div class="image_post_bx">
+                                        <img src="/Projetos.dev/Twitter/img/whatsapp-image-2022-11-18-at-10.39.52.webp" alt="">
+                                        <img src="/Projetos.dev/Twitter/img/nattan.webp" alt="">
+                                        <img src="/Projetos.dev/Twitter/img/zévaqueiro.jpg" alt="">
+                                    </div>
+                                    <div class="tweet_card_social_data">
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>128</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>283</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>4.8k</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post_card_bx">
+                                <div class="post_profile">
+                                    <img src="/Projetos.dev/Twitter/img/YM7g75Za_400x400.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="user_name_time">
+                                        <h5>Flamengo <img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt=""> <p>@Flamengo</p></h5>
+                                        <h6><i class="fa-regular fa-clock"></i> 4 hours</h6>
+                                    </div>
+                                        <h3><p>Há exatos três anos o #Flamengo</p>
+
+                                            <p>conquistava o Bi campeonato da libertadores 🏆🏆</p><br>
+                                              
+                                            <p>🗓️ 23 novembro de 2019.</p>
+                                            <p>📷 @delmirojunior</p>
+                                            <img src="/Projetos.dev/Twitter/img/fla.jpeg" alt="">
+                                        </h3>
+                                    <div class="image_post_bx"></div>
+                                    <div class="tweet_card_social_data">
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>1287</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>283</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>44.8k</span>
+                                        </div>
+                                        <div class="tweet_social_card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow_bx">
+                    <div class="trend_for_you">
+                        <nav>
+                            <h6>Trends for you</h6>
+                            <i class="fa-solid fa-gear"></i>
+                        </nav>
+                        <div class="trend_bx">
+                            <div class="rate">
+                                <li><a href="#">#coldplay <br><p>937k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                <div class="interest">
+                                    <button class="smile"><i class="fa-solid fa-face-smile"></i> Interested</button>
+                                    <button class="frown"><i class="fa-solid fa-face-smile"></i> Not interested</button>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <li><a href="#">#kanewilliamson <br><p>1.06k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                <div class="interest">
+                                    <button class="smile"><i class="fa-solid fa-face-smile"></i> Interested</button>
+                                    <button class="frown"><i class="fa-solid fa-face-smile"></i> Not interested</button>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <li><a href="#">#conway <br><p>5.15k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                <div class="interest">
+                                    <button class="smile"><i class="fa-solid fa-face-smile"></i> Interested</button>
+                                    <button class="frown"><i class="fa-solid fa-face-smile"></i> Not interested</button>
+                                </div>
+                            </div>
+                            <div class="rate">
+                                <li><a href="#">#rishabpant <br><p>7.12k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                <div class="interest">
+                                    <button class="smile"><i class="fa-solid fa-face-smile"></i> Interested</button>
+                                    <button class="frown"><i class="fa-solid fa-face-smile"></i> Not interested</button>
+                                </div>
+                            </div>
+                            <button class="see_more">SEE MORE</button>
+                        </div>
+                    </div>
+                    <div class="you_should_follow trend_for_you">
+                        <nav>
+                            <h6>You Shold Follow</h6>
+                            <i class="fa-solid fa-rotate-right"></i>
+                        </nav>
+                        <div class="follow_bx">
+                            <div class="follow_profile_name">
+                                <img src="/Projetos.dev/Twitter/img/Bfpwzshj_400x400.jpg" alt="" class="follow_profile">
+                                <div class="user_name">
+                                    <div class="user_name_follow"><h6>TNT SPORTS FC</h6><img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt=""></div>
+                                    <p>@TNTSportsFC</p>
+                                </div>
+                            </div>
+                            <button>Follow</button>
+                        </div>
+                        <div class="follow_bx">
+                            <div class="follow_profile_name">
+                                <img src="/Projetos.dev/Twitter/img/QEPY4cpL_400x400.jpg" alt="" class="follow_profile">
+                                <div class="user_name">
+                                    <div class="user_name_follow"><h6>Real Madrid C.F</h6><img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt=""></div>
+                                    <p>@realmadrid</p>
+                                </div>
+                            </div>
+                            <button>Follow</button>
+                        </div>
+                        <div class="follow_bx">
+                            <div class="follow_profile_name">
+                                <img src="/Projetos.dev/Twitter/img/images.jpeg" alt="" class="follow_profile">
+                                <div class="user_name">
+                                    <div class="user_name_follow"><h6>FC Barcelona</h6><img src="/Projetos.dev/Twitter/img/pngwing.com.png" alt=""></div>
+                                    <p>@fcbarcelona</p>
+                                </div>
+                            </div>
+                            <button>Follow</button>
+                        </div>
+                        <button id="see_more">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
+
+        
